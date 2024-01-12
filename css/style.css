@@ -1,0 +1,31 @@
+/* Colors:
+ header background color: #d2232a
+ vegan image display background: #8EC298
+ non vegan image display background: #C2988E
+*/
+
+/*
+Font:
+font-family: 'Fredoka', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+/* Main */
+
+main {
+  padding: 0 10%;
+}
+
+/* Vegan */
+
+/* NonVegan */
+
+/* Footer */
