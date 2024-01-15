@@ -4,9 +4,7 @@
  non vegan image display background: #C2988E
 */
 
-/*
-Font:
-font-family: 'Fredoka', sans-serif; */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
 
@@ -14,6 +12,7 @@ font-family: 'Fredoka', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
 }
 
 /* Header */
@@ -29,3 +28,58 @@ main {
 /* NonVegan */
 
 /* Footer */
+.footer{
+}
+
+.footer-container{
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social{
+  margin-bottom: 2rem;
+  font-size: 36px;
+}
+
+
+.footer-link-container{
+  display: flex;
+  gap: 1rem;
+}
+
+
+.Footer-link{
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+}
+
+
+.social-icon{
+  color: #d2232a
+}
+
+.social-icon:hover{
+  color: hsl(224, 89%, 60%);
+}
+
+.footer-copyWrite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2rem;
+  margin-top: 3rem;
+  background-color: #d2232a;
+  color: #fff;
+  width: 100vw;
+  height: 6em;
+  border-radius: 0 0 10px 10px;
+  letter-spacing: 2px;
+}
