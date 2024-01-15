@@ -4,7 +4,9 @@
  non vegan image display background: #C2988E
 */
 
-
+/*
+Font:
+font-family: 'Fredoka', sans-serif; */
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
 
@@ -14,7 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fredoka', sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 header {
@@ -37,7 +39,7 @@ header {
   padding: 1rem 0.3rem;
   font-size: 1.5rem;
   border-radius: 60px;
-  font-family: 'Fredoka', sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-weight: 600;
   color: white;
   background-color: #d2232a;
@@ -60,12 +62,12 @@ main {
 h2 {
   padding: 0;
   margin: 0.2rem 0;
-  font-family: 'Fredoka', sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-size: 2rem;
 }
 
 p {
-  font-family: 'Fredoka', sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -116,8 +118,7 @@ p {
 
 /* Footer */
 
-
-.footer-container{
+.footer-container {
   margin: 5rem;
   margin-bottom: 0;
   display: flex;
@@ -127,36 +128,33 @@ p {
   justify-content: space-between;
 }
 
-.footer-social{
+.footer-social {
   margin-bottom: 2rem;
   font-size: 36px;
 }
 
-
-.footer-link-container{
+.footer-link-container {
   display: flex;
   gap: 1rem;
 }
 
-
-.Footer-link{
-  a{
+.Footer-link {
+  a {
     text-decoration: none;
     color: black;
     font-weight: 500;
   }
 }
 
-
-.social-icon{
-  color: #d2232a
+.social-icon {
+  color: #d2232a;
 }
 
-.social-icon:hover{
+.social-icon:hover {
   color: hsl(224, 89%, 60%);
 }
 
-.footer-copyWrite{
+.footer-copyWrite {
   display: flex;
   flex-direction: column;
   align-items: center;
