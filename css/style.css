@@ -90,21 +90,21 @@ p {
 }
 
 #pancakes {
-  background-image: url(/Cookbook/images/PlaceholderIcon.jpg);
+  background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #schnitzel {
-  background-image: url(/Cookbook/images/PlaceholderIcon.jpg);
+  background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #goatCheeseSalad {
-  background-image: url(/Cookbook/images/PlaceholderIcon.jpg);
+  background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
