@@ -8,6 +8,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
 
+/* Header */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +17,97 @@
   font-family: 'Fredoka', sans-serif;
 }
 
-/* Header */
+header {
+  background-color: #d2232a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+#navHeader {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.navButton {
+  width: 20%;
+  padding: 1rem 0.3rem;
+  font-size: 1.5rem;
+  border-radius: 60px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #d2232a;
+  border-color: white;
+  box-shadow: 3px 5px 5px whitesmoke;
+  border-style: solid;
+}
 
 /* Main */
 
 main {
   padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  padding: 0;
+  margin: 0.2rem 0;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+}
+
+#introTxt {
+  padding: 2rem 0;
+}
+
+#foodDisplayP {
+  padding-bottom: 2rem;
+}
+
+#foodDisplayIconContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.foodIcon {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: none;
+}
+
+#pancakes {
+  background-image: url(/Cookbook/images/PlaceholderIcon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#schnitzel {
+  background-image: url(/Cookbook/images/PlaceholderIcon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#goatCheeseSalad {
+  background-image: url(/Cookbook/images/PlaceholderIcon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Vegan */
