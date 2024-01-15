@@ -119,6 +119,7 @@ p {
 
 .footer-container{
   margin: 5rem;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-items: center;
