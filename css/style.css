@@ -51,7 +51,6 @@ header {
 /* Main */
 
 main {
-  height: 100vh; /* Ata's change */
   padding: 0 10%;
   display: flex;
   flex-direction: column;
@@ -92,42 +91,116 @@ p {
   border: none;
 }
 
-#pancakes{
+#pancakes {
   background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#schnitzel{
+#schnitzel {
   background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#goatCheeseSalad{
+#goatCheeseSalad {
   background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
-
-
 
 /* Vegan */
 
 /* NonVegan */
 
+/* Recipe Display */
+
+.recipeDisplay {
+  display: flex;
+  flex-direction: column;
+  border: #662601 solid 10px;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  background-color: #db904a;
+}
+
+.recipeHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  border-radius: 1rem 1rem 0 0;
+  padding: 2rem;
+}
+
+.recipeHeader img {
+  margin: 0.5rem 0 0 0.5rem;
+  height: auto;
+  width: 38rem;
+  border: 3px solid #662601;
+  border-radius: 1rem;
+}
+
+.recipeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 40%;
+}
+
+.recipeText h3 {
+  font-size: 2.75rem;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.recipeText > p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.recipeText ul {
+  list-style: none;
+}
+
+.recipeText li {
+  text-align: start;
+  font-size: 1.25rem;
+  margin: 0.3rem 0;
+}
+
+.recipeInfo p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.recipeBody h4 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.recipeBody ol {
+  margin: 0 0 0 50px;
+}
+
+.recipeBody li {
+  text-align: left;
+  margin: 0 5rem 3rem 2rem;
+  font-size: 1.25rem;
+}
+
 /* Breakfast NoVeg */
 
-.foodDisplayBreakfast{
+.foodDisplayBreakfast {
   border: 1px solid whitesmoke;
   border-radius: 25px;
-  background-color: #C2988E; /* alternative suggestion #2980b9 */
+  background-color: #c2988e; /* alternative suggestion #2980b9 */
 
-  h2{
+  h2 {
     margin: 2rem 0;
   }
 }
@@ -140,13 +213,13 @@ p {
   justify-content: space-around;
 }
 
-.foodIcon{
+.foodIcon {
   position: relative;
   overflow: hidden;
 }
 
-.foodIcon::before{
-  content: '';
+.foodIcon::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -162,11 +235,11 @@ p {
   z-index: 1;
 }
 
-.foodIcon:hover::before{
+.foodIcon:hover::before {
   opacity: 1;
 }
 
-.text-overlay{
+.text-overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -179,11 +252,9 @@ p {
   z-index: 2;
 }
 
-.foodIcon:hover .text-overlay{
+.foodIcon:hover .text-overlay {
   opacity: 1;
 }
-
-
 
 #beeren_icecream_minze {
   background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
@@ -226,7 +297,6 @@ p {
   background-size: cover;
   background-position: center;
 }
-
 
 /* Footer */
 
