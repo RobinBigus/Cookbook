@@ -51,6 +51,7 @@ header {
 /* Main */
 
 main {
+  height: 100vh; /* Ata's change */
   padding: 0 10%;
   display: flex;
   flex-direction: column;
@@ -91,30 +92,141 @@ p {
   border: none;
 }
 
-#pancakes {
+#pancakes{
   background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#schnitzel {
+#schnitzel{
   background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#goatCheeseSalad {
+#goatCheeseSalad{
   background-image: url(../images/PlaceholderIcon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
+
+
 
 /* Vegan */
 
 /* NonVegan */
+
+/* Breakfast NoVeg */
+
+.foodDisplayBreakfast{
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  background-color: #C2988E; /* alternative suggestion #2980b9 */
+
+  h2{
+    margin: 2rem 0;
+  }
+}
+
+.foodDisplayIconContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  padding: 2em;
+  justify-content: space-around;
+}
+
+.foodIcon{
+  position: relative;
+  overflow: hidden;
+}
+
+.foodIcon::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.foodIcon:hover::before{
+  opacity: 1;
+}
+
+.text-overlay{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-weight: 500;
+  opacity: 0;
+  transition: 1s;
+  transition-duration: 0.5s ease-in;
+  z-index: 2;
+}
+
+.foodIcon:hover .text-overlay{
+  opacity: 1;
+}
+
+
+
+#beeren_icecream_minze {
+  background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#chocolate_shell_oats {
+  background-image: url(../images/breakfast/chocolate_shell_oats.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#haferschleim {
+  background-image: url(../images/breakfast/haferschleim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hummus_ohne_tahini {
+  background-image: url(../images/breakfast/hummus_ohne_tahini.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#knuspriges_buchweizen_granola {
+  background-image: url(../images/breakfast/knuspriges_buchweizen_granola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#overnight_oats_mit_skyr {
+  background-image: url(../images/breakfast/overnight_oats_mit_skyr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 /* Footer */
 
