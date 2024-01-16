@@ -136,7 +136,7 @@ p {
 }
 
 .recipeHeader img {
-  margin: 1rem 0 1rem 1rem;
+  margin: 0.5rem 0 0 0.5rem;
   height: auto;
   width: 38rem;
   border: 3px solid #662601;
@@ -147,7 +147,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
   width: 40%;
 }
 
@@ -170,11 +170,12 @@ p {
 .recipeText li {
   text-align: start;
   font-size: 1.25rem;
-  margin: 0.5rem 0;
+  margin: 0.3rem 0;
 }
 
 .recipeInfo p {
   font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .recipeBody h4 {
@@ -188,7 +189,7 @@ p {
 
 .recipeBody li {
   text-align: left;
-  margin: 0 1rem 3rem;
+  margin: 0 5rem 3rem 2rem;
   font-size: 1.25rem;
 }
 
