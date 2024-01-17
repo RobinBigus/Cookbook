@@ -356,6 +356,60 @@ p {
   background-position: center;
 }
 
+/* Dinner No Veg */
+
+.foodDisplayDinnerNoVeg {
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  background-color: #c2988e; /* alternative suggestion #2980b9 */
+
+  h2 {
+    margin: 2rem 0;
+  }
+}
+
+#carpaccio_entenbrust {
+  background-image: url(../images/dinner/carpaccio_entenbrust.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#chefsalat_steak {
+  background-image: url(../images/dinner/chefsalat_steak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#knusperhaehnchen_gurkensalat {
+  background-image: url(../images/dinner/knusperhaehnchen_gurkensalat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#lachs_tomaten_pasta {
+  background-image: url(../images/dinner/lachs_tomaten_pasta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#spaghetti_carbonara {
+  background-image: url(../images/dinner/spaghetti_carbonara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#bratwurst_buletten_gemuese {
+  background-image: url(../images/dinner/bratwurst_buletten_gemuese.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Footer */
 
 .footer-container {
