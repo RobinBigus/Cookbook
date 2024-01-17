@@ -254,11 +254,25 @@ p {
 
 /* Breakfast NoVeg */
 
-.foodDisplayBreakfast {
+.foodDisplayNoVeg {
   border: 1px solid whitesmoke;
   border-radius: 25px;
   background-color: #c2988e; /* alternative suggestion #2980b9 */
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  h2 {
+    margin: 2rem 0;
+  }
+}
 
+.foodDisplayVeg {
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  background-color: #8EC298; 
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  width: 100%;
   h2 {
     margin: 2rem 0;
   }
@@ -361,18 +375,6 @@ p {
 
 /* Dinner No Veg */
 
-.foodDisplayDinnerNoVeg {
-  border: 1px solid whitesmoke;
-  border-radius: 25px;
-  background-color: #c2988e; /* alternative suggestion #2980b9 */
-  margin-top: 3rem;
-  padding-bottom: 2rem;
-  width: 100%;
-  h2 {
-    margin: 2rem 0;
-  }
-}
-
 #carpaccio_entenbrust {
   background-image: url(../images/dinner/carpaccio_entenbrust.jpg);
   background-repeat: no-repeat;
@@ -419,17 +421,11 @@ p {
   display: none;
 }
 
-/* Dinner Veg */
-
-.foodDisplayDinnerVeg { /* suggestion to have 2 classes on veg on noveg so shorten code */
-  border: 1px solid whitesmoke;
-  border-radius: 25px;
-  background-color: #8EC298; 
-  margin-top: 3rem;
-  h2 {
-    margin: 2rem 0;
-  }
+#steakSaladRecipe {
+  display: none;
 }
+
+/* Dinner Veg */
 
 #asia_bowl_kraeutersalat {
   background-image: url(../images/dinner/asia_bowl_kraeutersalat.jpg);
