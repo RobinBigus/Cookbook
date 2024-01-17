@@ -362,6 +362,7 @@ p {
   border: 1px solid whitesmoke;
   border-radius: 25px;
   background-color: #c2988e; /* alternative suggestion #2980b9 */
+  margin-top: 3rem;
 
   h2 {
     margin: 2rem 0;
@@ -410,6 +411,59 @@ p {
   background-position: center;
 }
 
+/* Dinner Veg */
+
+.foodDisplayDinnerVeg { /* suggestion to have 2 classes on veg on noveg so shorten code */
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  background-color: #8EC298; 
+  margin-top: 3rem;
+  h2 {
+    margin: 2rem 0;
+  }
+}
+
+#asia_bowl_kraeutersalat {
+  background-image: url(../images/dinner/asia_bowl_kraeutersalat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#brokkoli_lauch_curry {
+  background-image: url(../images/dinner/brokkoli_lauch_curry.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#endiviensalat_tofu_dressing {
+  background-image: url(../images/dinner/endiviensalat_tofu_dressing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#moehren_linsen_suppe {
+  background-image: url(../images/dinner/moehren_linsen_suppe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#spinat_omelette_feta {
+  background-image: url(../images/dinner/spinat_omelette_feta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#romanesco_pfanne_fregola {
+  background-image: url(../images/dinner/romanesco_pfanne_fregola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* Footer */
 
 .footer-container {
