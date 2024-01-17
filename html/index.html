@@ -11,12 +11,34 @@
   <body>
     
     <header>
+
       <img src="../images/MoKitchenLogo_bg_d2232a.png">
-      <nav id="navHeader">
-        <button class="navButton">Breakfast</button>
-        <button class="navButton">Lunch</button>
-        <button class="navButton">Dinner</button>
+
+      <nav id="navHeader" class="dropdown">
+
+        <button id="buttonBreakfast" class="navButton">Breakfast
+          <div class="dropdownContent" id="buttonBreakfastContent">
+            <a href="breakfastVeg.html">vegan options</a>
+            <a href="breakfastNoVeg.html">non vegan options</a>
+          </div>
+        </button>
+          
+        <button id="buttonLunch" class="navButton">Lunch
+          <div class="dropdownContent" id="buttonLunchContent">
+            <a href="lunchVeg.html">vegan options</a>
+            <a href="lunchNoVeg.html">non vegan options</a>
+          </div>
+        </button>
+
+        <button id="buttonDinner" class="navButton">Dinner
+          <div class="dropdownContent" id="buttonDinnerContent">
+            <a href="dinnerVeg.html">vegan options</a>
+            <a href="dinnerVeg.html">non vegan options</a>
+          </div>
+        </button>
+
       </nav>
+
     </header>
 
     <main>

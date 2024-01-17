@@ -32,6 +32,7 @@ header {
   height: 100%;
   width: 60%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navButton {
@@ -46,6 +47,50 @@ header {
   border-color: white;
   box-shadow: 3px 5px 5px whitesmoke;
   border-style: solid;
+  max-height: 65px;
+  text-align: center;
+}
+
+#buttonBreakfast:hover {
+  max-height: fit-content; 
+}
+
+#buttonBreakfast:hover #buttonBreakfastContent {
+  display: flex;
+  padding-top: 1rem;
+}
+
+#buttonLunch:hover {
+  max-height: fit-content; 
+}
+
+#buttonLunch:hover #buttonLunchContent {
+  display: flex;
+  padding-top: 1rem;
+}
+
+#buttonDinner:hover {
+  max-height: fit-content; 
+}
+
+#buttonDinner:hover #buttonDinnerContent {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.dropdownContent {
+  display: none;
+  flex-direction: column;
+}
+
+.dropdownContent a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.dropdownContent a:hover {
+  color: black;
 }
 
 /* Main */
