@@ -183,6 +183,7 @@ p {
   border-radius: 1rem;
   margin-top: 5rem;
   background-color: #db904a;
+  width: 100%;
 }
 
 .recipeHeader {
@@ -264,11 +265,13 @@ p {
 }
 
 .foodDisplayIconContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
-  padding: 2em;
-  justify-content: space-around;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1em;
+  padding: 1em;
+  align-items: center; */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .foodIcon {
@@ -363,7 +366,8 @@ p {
   border-radius: 25px;
   background-color: #c2988e; /* alternative suggestion #2980b9 */
   margin-top: 3rem;
-
+  padding-bottom: 2rem;
+  width: 100%;
   h2 {
     margin: 2rem 0;
   }
@@ -409,6 +413,10 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#duckRecipe {
+  display: none;
 }
 
 /* Dinner Veg */
