@@ -7,5 +7,164 @@
     <link rel="icon" type="image" href="/images/MoKitchenLogo_bg_d2232a.png" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="../images/MoKitchenLogo_bg_d2232a.png" />
+
+      <nav id="navHeader" class="dropdown">
+        <button id="buttonBreakfast" class="navButton">
+          Breakfast
+          <div class="dropdownContent" id="buttonBreakfastContent">
+            <a href="breakfastVeg.html">vegan options</a>
+            <a href="breakfastNoVeg.html">non vegan options</a>
+          </div>
+        </button>
+
+        <button id="buttonLunch" class="navButton">
+          Lunch
+          <div class="dropdownContent" id="buttonLunchContent">
+            <a href="lunchVeg.html">vegan options</a>
+            <a href="lunchNoVeg.html">non vegan options</a>
+          </div>
+        </button>
+
+        <button id="buttonDinner" class="navButton">
+          Dinner
+          <div class="dropdownContent" id="buttonDinnerContent">
+            <a href="dinnerVeg.html">vegan options</a>
+            <a href="dinnerVeg.html">non vegan options</a>
+          </div>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="foodDisplayBreakfast">
+        <h2>Breakfast</h2>
+        <p id="foodDisplayP">Here you find our non Vegan Options</p>
+        <div class="foodDisplayIconContainer">
+          <button id="beeren_icecream_minze" class="foodIcon">
+            <div class="text-overlay">
+              <p>Mint Icecream</p>
+              <br />
+              <p>Prep time: 15 min</p>
+            </div>
+          </button>
+          <button id="chocolate_shell_oats" class="foodIcon">
+            <div class="text-overlay">
+              <p>Chocolate Shell Oats</p>
+              <br />
+              <p>Prep time: 10 min</p>
+            </div>
+          </button>
+          <button id="haferschleim" class="foodIcon">
+            <div class="text-overlay">
+              <p>Porridge</p>
+              <br />
+              <p>Prep time: 5 min</p>
+            </div>
+          </button>
+          <button id="hummus_ohne_tahini" class="foodIcon">
+            <div class="text-overlay">
+              <p>Hummus without Tahini</p>
+              <br />
+              <p>Prep time: 20 min</p>
+            </div>
+          </button>
+          <button id="knuspriges_buchweizen_granola" class="foodIcon">
+            <div class="text-overlay">
+              <p>Crunchy buckwheat granola</p>
+              <br />
+              <p>Prep time: 7 min</p>
+            </div>
+          </button>
+          <button id="overnight_oats_mit_skyr" class="foodIcon">
+            <div class="text-overlay">
+              <p>Oats with Skyr</p>
+              <br />
+              <p>Prep time: 12 hrs</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="recipeDisplay">
+        <div class="recipeHeader">
+          <img
+            src="../images/breakfast/chocolate_shell_oats.jpg"
+            alt="Chocolate Shell Oats"
+          />
+          <div class="recipeText">
+            <div class="recipeInfo">
+              <h3>Chocolate Shell Oats</h3>
+              <p>
+                Fruity overnight oats with persimmons and carrots, hidden under
+                a crunchy chocolate layer
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
+              <li>80 g fine oat flakes</li>
+              <li>2 tbsp linseed</li>
+              <li>300 ml oat drink (oat milk)</li>
+              <li>salt</li>
+              <li>½ tsp turmeric</li>
+              <li>½ tsp cinnamon</li>
+              <li>persimmons</li>
+              <li>100 g carrots</li>
+              <li>20 g hazelnuts</li>
+              <li>2 tbsp coconut oil</li>
+              <li>1 tbsp cocoa powder</li>
+            </ul>
+          </div>
+        </div>
+        <div class="recipeBody">
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Mix the oat flakes together with linseed, oat drink and salt,
+              turmeric and cinnamon. Cut the persimmon into small cubes, finely
+              grate the carrot and mix both into the mixture. Then place in the
+              refrigerator for at least 2 hours, preferably overnight.
+            </li>
+            <li>
+              After the waiting time, divide into two glasses, roughly chop the
+              hazelnuts and fold in ⅔ of the kernels. Put coconut oil in a pot
+              and let it melt over a low heat for 3-5 minutes and stir with
+              cocoa powder until smooth.
+            </li>
+            <li>
+              Smooth out the oatmeal and persimmon mixture and pour the coconut
+              oil mixture over it. Swirl the glasses slightly so that a smooth
+              surface forms. As soon as the chocolate layer has set, serve the
+              chocolate shell oats with the remaining hazelnuts.
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-social">
+          <a class="social-icon" href=""><i class="bx bxl-youtube"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-instagram"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-facebook"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-pinterest"></i></a>
+        </div>
+
+        <div class="footer-link-container">
+          <div class="Footer-link"><a href="">Home </a></div>
+          <div class="Footer-link"><a href="">Contact </a></div>
+          <div class="Footer-link"><a href="">Delivery </a></div>
+          <div class="Footer-link"><a href="">Locations</a></div>
+        </div>
+
+        <div class="footer-copyWrite">
+          <h3>Healthy Food, Crafted With 🎔 in Germany</h3>
+          <p>&copy Mo's Kitchen - 2024</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
