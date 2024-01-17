@@ -164,12 +164,14 @@ p {
 /* Recipe Display */
 
 .recipeDisplay {
+  width: 100%;
   display: flex;
   flex-direction: column;
   border: #d2232a solid 6px;
   border-radius: 1rem;
   margin-top: 5rem;
   background-color: #ead196;
+  display: none;
 }
 
 .recipeHeader {
@@ -241,6 +243,7 @@ p {
 /* Breakfast NoVeg */
 
 .foodDisplayBreakfast {
+  width: 100%;
   margin-top: 5rem;
   border: 6px solid #d2232a;
   border-radius: 25px;
@@ -251,17 +254,11 @@ p {
     font-size: 3rem;
     text-decoration: underline;
   }
-
-  p {
-    font-size: 1.75rem;
-    border-bottom: 1px dotted white;
-    text-decoration: none;
-  }
 }
 
 .foodDisplayIconContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 2em;
   padding: 2em;
   justify-content: space-around;
@@ -310,7 +307,7 @@ p {
   opacity: 1;
 }
 
-#beeren_icecream_minze {
+#button1 {
   background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,7 +315,7 @@ p {
   border: white solid 3px;
 }
 
-#chocolate_shell_oats {
+#button2 {
   background-image: url(../images/breakfast/chocolate_shell_oats.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -326,7 +323,7 @@ p {
   border: white solid 3px;
 }
 
-#haferschleim {
+#button3 {
   background-image: url(../images/breakfast/haferschleim.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -334,7 +331,7 @@ p {
   border: white solid 3px;
 }
 
-#hummus_ohne_tahini {
+#button4 {
   background-image: url(../images/breakfast/hummus_ohne_tahini.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -342,7 +339,7 @@ p {
   border: white solid 3px;
 }
 
-#knuspriges_buchweizen_granola {
+#button5 {
   background-image: url(../images/breakfast/knuspriges_buchweizen_granola.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -350,7 +347,7 @@ p {
   border: white solid 3px;
 }
 
-#overnight_oats_mit_skyr {
+#button6 {
   background-image: url(../images/breakfast/overnight_oats_mit_skyr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
