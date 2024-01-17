@@ -25,6 +25,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 1rem;
+  border-bottom: hsl(358, 71%, 28%) solid 2px;
 }
 
 #navHeader {
@@ -43,39 +44,45 @@ header {
   font-family: "Fredoka", sans-serif;
   font-weight: 600;
   color: white;
-  background-color: #d2232a;
-  border-color: white;
-  box-shadow: 3px 5px 5px whitesmoke;
+  background: radial-gradient(circle, rgba(220,83,89,1) 0%, rgba(210,35,42,1) 100%);
+  border-color: hsl(358, 59%, 63%);
+  box-shadow: 3px 5px 5px hsl(358, 79%, 9%);
   border-style: solid;
   max-height: 65px;
   text-align: center;
 }
 
 #buttonBreakfast:hover {
-  max-height: fit-content; 
+  max-height: fit-content;
 }
 
 #buttonBreakfast:hover #buttonBreakfastContent {
   display: flex;
-  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 #buttonLunch:hover {
-  max-height: fit-content; 
+  max-height: fit-content;
 }
 
 #buttonLunch:hover #buttonLunchContent {
   display: flex;
-  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 #buttonDinner:hover {
-  max-height: fit-content; 
+  max-height: fit-content;
 }
 
 #buttonDinner:hover #buttonDinnerContent {
   display: flex;
-  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .dropdownContent {
@@ -89,8 +96,14 @@ header {
   font-size: 1rem;
 }
 
-.dropdownContent a:hover {
-  color: black;
+.dropdownContent .veganOptA:hover {
+  color:#8EC298;
+  text-shadow:black 1px 1px;
+}
+
+.dropdownContent .nonVeganOptA:hover {
+  color: hsl(12, 53%, 57%);
+  text-shadow:black 1px 1px;
 }
 
 /* Main */
