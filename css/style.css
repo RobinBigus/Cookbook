@@ -26,7 +26,6 @@ header {
   align-items: center;
   padding-bottom: 1rem;
   border-bottom: hsl(358, 71%, 28%) solid 2px;
-  border-bottom: hsl(358, 71%, 28%) solid 2px;
 }
 
 #navHeader {
@@ -272,8 +271,11 @@ p {
   margin-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
+  border: hsl(358, 71%, 28%) solid 3px;
   h2 {
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
+    font-size: 3rem;
+    text-decoration: underline;
   }
 }
 
@@ -284,6 +286,7 @@ p {
   margin-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
+  border: hsl(133, 16%, 28%) solid 3px;
   h2 {
     margin: 2rem 0 1rem 0;
     font-size: 3rem;
@@ -292,11 +295,6 @@ p {
 }
 
 .foodDisplayIconContainer {
-  /* display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1em;
-  padding: 1em;
-  align-items: center; */
   display: flex;
   justify-content: space-evenly;
 }
