@@ -12,7 +12,6 @@ const carrotRezept = document.querySelector('#carrotRecipe');
 const spinachRezept = document.querySelector('#spinachRecipe');
 const stirFryRezept = document.querySelector('#stirFryRecipe');
 
-
 let isClicked = true;
 
 let showBowl = function(){
