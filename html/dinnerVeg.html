@@ -4,106 +4,145 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vegan Dinner</title>
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image" href="/images/MoKitchenLogo_bg_d2232a.png" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      
-      <a href="index.html"><img src="../images/MoKitchenLogo_bg_d2232a.png"></a>
+      <a href="index.html"
+        ><img src="../images/MoKitchenLogo_bg_d2232a.png"
+      /></a>
 
       <nav id="navHeader" class="dropdown">
-
-        <button id="buttonBreakfast" class="navButton">Breakfast
+        <button id="buttonBreakfast" class="navButton">
+          Breakfast
           <div class="dropdownContent" id="buttonBreakfastContent">
-            <a href="breakfastNoVeg.html" class="nonVeganOptA">non vegan options</a>
+            <a href="breakfastNoVeg.html" class="nonVeganOptA"
+              >non vegan options</a
+            >
             <a href="breakfastVeg.html" class="veganOptA">vegan options</a>
           </div>
         </button>
-          
-        <button id="buttonLunch" class="navButton">Lunch
+
+        <button id="buttonLunch" class="navButton">
+          Lunch
           <div class="dropdownContent" id="buttonLunchContent">
             <a href="lunchNoVeg.html" class="nonVeganOptA">non vegan options</a>
             <a href="lunchVeg.html" class="veganOptA">vegan options</a>
           </div>
         </button>
 
-        <button id="buttonDinner" class="navButton">Dinner
+        <button id="buttonDinner" class="navButton">
+          Dinner
           <div class="dropdownContent" id="buttonDinnerContent">
-            <a href="dinnerNoVeg.html" class="nonVeganOptA">Non-vegan options</a>
+            <a href="dinnerNoVeg.html" class="nonVeganOptA"
+              >Non-vegan options</a
+            >
             <a href="dinnerVeg.html" class="veganOptA">Vegan options</a>
           </div>
         </button>
-
       </nav>
-
     </header>
 
     <main>
       <section class="foodDisplayVeg">
-        <h2>Lunch</h2>
-        <p id="foodDisplayP">
-        Our Vegan Options   
-        </p>
+        <h2>Dinner</h2>
+        <p id="foodDisplayP">Our Vegan Options</p>
         <div class="foodDisplayIconContainer">
-          <button id="asia_bowl_kraeutersalat" class="foodIcon" onclick="showBowl()">
+          <button
+            id="asia_bowl_kraeutersalat"
+            class="foodIcon"
+            onclick="showBowl()"
+          >
             <div class="text-overlay">
-              <p>Asia Bowl</p><br>
+              <p>Asia Bowl</p>
+              <br />
               <p>Prep time: 15 min</p>
             </div>
           </button>
 
-          <button id="brokkoli_lauch_curry" class="foodIcon" onclick="showBroc()">
+          <button
+            id="brokkoli_lauch_curry"
+            class="foodIcon"
+            onclick="showBroc()"
+          >
             <div class="text-overlay">
-              <p>Broccoli Curry</p><br>
+              <p>Broccoli Curry</p>
+              <br />
               <p>Prep time: 10 min</p>
             </div>
           </button>
 
-          <button id="endiviensalat_tofu_dressing" class="foodIcon" onclick="showEndive()">
+          <button
+            id="endiviensalat_tofu_dressing"
+            class="foodIcon"
+            onclick="showEndive()"
+          >
             <div class="text-overlay">
-              <p>Endive salad with tofu dressing</p><br>
+              <p>Endive salad with tofu dressing</p>
+              <br />
               <p>Prep time: 5 min</p>
             </div>
           </button>
 
-          <button id="moehren_linsen_suppe" class="foodIcon" onclick="showCarrot()">
+          <button
+            id="moehren_linsen_suppe"
+            class="foodIcon"
+            onclick="showCarrot()"
+          >
             <div class="text-overlay">
-              <p>Carrot Soup</p><br>
+              <p>Carrot Soup</p>
+              <br />
               <p>Prep time: 20 min</p>
             </div>
           </button>
 
-          <button id="spinat_omelette_feta" class="foodIcon" onclick="showSpinach()">
+          <button
+            id="spinat_omelette_feta"
+            class="foodIcon"
+            onclick="showSpinach()"
+          >
             <div class="text-overlay">
-              <p>Feta Spinach Omlette</p><br>
+              <p>Feta Spinach Omlette</p>
+              <br />
               <p>Prep time: 7 min</p>
             </div>
           </button>
 
-          <button id="romanesco_pfanne_fregola" class="foodIcon" onclick="showStir()">
+          <button
+            id="romanesco_pfanne_fregola"
+            class="foodIcon"
+            onclick="showStir()"
+          >
             <div class="text-overlay">
-              <p>Stir Fry</p><br>
+              <p>Stir Fry</p>
+              <br />
               <p>Prep time: 12 hrs</p>
             </div>
           </button>
         </div>
-        
       </section>
 
       <section class="recipeDisplay" id="bowlRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/asia_bowl_kraeutersalat.jpg" alt="Asia Bowl">
+          <img
+            src="../images/dinner/asia_bowl_kraeutersalat.jpg"
+            alt="Asia Bowl"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Asia Bowl with plant based Chicken</h3>
-          <p>Imagine a bowl filled with all the beautiful colours of the rainbow, and it's vegan and it tastes amazing.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Asia Bowl with plant based Chicken</h3>
+              <p>
+                Imagine a bowl filled with all the beautiful colours of the
+                rainbow, and it's vegan and it tastes amazing.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>150g Plantry Chicken Style Strips</li>
               <li>100g cooked brown rice</li>
               <li>30g shredded red cabbage</li>
@@ -112,43 +151,51 @@
               <li>20g sliced red capsicum</li>
               <li>40g snow peas</li>
               <li>1/2 an avocado</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Prepare Plantry Chicken Style Strips as per pack instructions.
-                </li>
-                <li>
-                  To make the peanut dressing, in a small bowl whisk together all of the peanut dressing ingredients. If too thick, add a little more water.
-                </li>
-                <li>
-                  To assemble the bowl, place the rice in the middle then in a clockwise direction, place the chicken strips then the fresh ingredients in sections.
-                </li>
-                <li>
-                  Drizzle with peanut dressing, then top with coriander, sesame seeds and lime wedge.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Prepare Plantry Chicken Style Strips as per pack instructions.
+            </li>
+            <li>
+              To make the peanut dressing, in a small bowl whisk together all of
+              the peanut dressing ingredients. If too thick, add a little more
+              water.
+            </li>
+            <li>
+              To assemble the bowl, place the rice in the middle then in a
+              clockwise direction, place the chicken strips then the fresh
+              ingredients in sections.
+            </li>
+            <li>
+              Drizzle with peanut dressing, then top with coriander, sesame
+              seeds and lime wedge.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="brocRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/brokkoli_lauch_curry.jpg" alt="Broccoli Curry">
+          <img
+            src="../images/dinner/brokkoli_lauch_curry.jpg"
+            alt="Broccoli Curry"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Broccoli Curry</h3>
-          <p>Broccoli curry is one of our favorite vegan curries as it is delicious, nutritious, and works great in the main course or side dish.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
-              <li>Broccoli </li>
+            <div class="recipeInfo">
+              <h3>Broccoli Curry</h3>
+              <p>
+                Broccoli curry is one of our favorite vegan curries as it is
+                delicious, nutritious, and works great in the main course or
+                side dish.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
+              <li>Broccoli</li>
               <li>Coconut oil</li>
               <li>Onion</li>
               <li>Garlic</li>
@@ -158,90 +205,104 @@
               <li>Coconut milk</li>
               <li>Salt</li>
               <li>Cayenne pepper</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  At first, wash the broccoli, cut it into florets, and set it aside
-                </li>
-                <li>
-                  Heat the oil in a nonstick pot or saucepan over medium-high temperature. 
-                  Add chopped onions, minced garlic, and grated ginger and stir it for 3 minutes to soften the mixture. 
-                </li>
-                <li>
-                  Add some curry powder, cumin and cook it until you get fragrant. It will take continuous stirring for about 1 minute.  
-                </li>
-                <li>
-                  Stir in broccoli and mix it with spices. Add coconut milk to make it to a simmer.
-                </li>
-                <li>
-                  Cover the saucepan and cook it until the broccoli florets are tender and juicy. It will take at least 8 minutes to cook perfectly. 
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              At first, wash the broccoli, cut it into florets, and set it aside
+            </li>
+            <li>
+              Heat the oil in a nonstick pot or saucepan over medium-high
+              temperature. Add chopped onions, minced garlic, and grated ginger
+              and stir it for 3 minutes to soften the mixture.
+            </li>
+            <li>
+              Add some curry powder, cumin and cook it until you get fragrant.
+              It will take continuous stirring for about 1 minute.
+            </li>
+            <li>
+              Stir in broccoli and mix it with spices. Add coconut milk to make
+              it to a simmer.
+            </li>
+            <li>
+              Cover the saucepan and cook it until the broccoli florets are
+              tender and juicy. It will take at least 8 minutes to cook
+              perfectly.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="endiveRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/endiviensalat_tofu_dressing.jpg" alt="Endive Salad">
+          <img
+            src="../images/dinner/endiviensalat_tofu_dressing.jpg"
+            alt="Endive Salad"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Endive Salad</h3>
-          <p>This endive salad recipe is a mix of refreshing, tangy and sweet! Combine this bitter green with orange, Parmesan and red wine vinaigrette.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Endive Salad</h3>
+              <p>
+                This endive salad recipe is a mix of refreshing, tangy and
+                sweet! Combine this bitter green with orange, Parmesan and red
+                wine vinaigrette.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>Belgian endive</li>
-              <li>Radicchio </li>
+              <li>Radicchio</li>
               <li>Oranges</li>
               <li>Sliced almonds</li>
               <li>Pecorino or Parmesan cheese</li>
               <li>Red Wine Vinaigrette</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Cut off the bottom 1/2-inch of the endives. Cut the leaves in half lengthwise, 
-                  leaving most of the smaller leaves whole. Rinse the leaves and blot them dry with a towel or place in a salad spinner to dry.
-                </li>
-                <li>
-                  Zest one orange. Then cut both of the oranges into segments (or simply remove the pieces).
-                </li>
-                <li>
-                  Make the Red Wine Vinaigrette.
-                </li>
-                <li>
-                  Place the endive leaves on a large plate or platter, or on individual plates. Top with the sliced radicchio, 
-                  orange zest and slices, sliced almonds and shavings of Pecorino or Parmesan cheese. Top with the red wine vinaigrette (taste and add more if necessary).
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Cut off the bottom 1/2-inch of the endives. Cut the leaves in half
+              lengthwise, leaving most of the smaller leaves whole. Rinse the
+              leaves and blot them dry with a towel or place in a salad spinner
+              to dry.
+            </li>
+            <li>
+              Zest one orange. Then cut both of the oranges into segments (or
+              simply remove the pieces).
+            </li>
+            <li>Make the Red Wine Vinaigrette.</li>
+            <li>
+              Place the endive leaves on a large plate or platter, or on
+              individual plates. Top with the sliced radicchio, orange zest and
+              slices, sliced almonds and shavings of Pecorino or Parmesan
+              cheese. Top with the red wine vinaigrette (taste and add more if
+              necessary).
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="carrotRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/moehren_linsen_suppe.jpg" alt="Carrot Soup">
+          <img
+            src="../images/dinner/moehren_linsen_suppe.jpg"
+            alt="Carrot Soup"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Carrot Soup</h3>
-          <p>This classic carrot soup is a wonderful soup to serve with your favorite winter salads, sandwiches, and even holiday entrées.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Carrot Soup</h3>
+              <p>
+                This classic carrot soup is a wonderful soup to serve with your
+                favorite winter salads, sandwiches, and even holiday entrées.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>2 pounds carrots</li>
               <li>3 tablespoons extra-virgin olive oil, divided</li>
               <li>¾ teaspoon fine sea salt, divided, to taste</li>
@@ -253,86 +314,106 @@
               <li>1 to 2 tablespoons unsalted butter, to taste</li>
               <li>1 ½ teaspoons lemon juice, to taste</li>
               <li>Freshly ground black pepper, to taste</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  To prepare your carrots, peel them and then cut them on the diagonal so each piece is about ½″ thick at the widest part 
-                </li>
-                <li>
-                  Roast the carrots until they're caramelized on the edges and easily pierced through by a fork, 25 to 40 minutes, tossing halfway. 
-                  (Heirloom carrot varieties will roast in as little as 25 minutes, but regular carrots are more dense and typically require 35 to 40 minutes.)
-                </li>
-                <li>
-                  Add the garlic, coriander and cumin (if following a variation, see recipe notes for additions). Cook until fragrant while stirring constantly, 
-                  about 30 seconds to 1 minute. Pour in the vegetable broth and water, while scraping up any browned bits on the bottom with a wooden spoon or sturdy silicone spatula.
-                </li>
-                <li>
-                  Add the butter, lemon juice (or lime, if following the Thai variation), and several twists of black pepper. Blend until completely smooth. 
-                  Add additional salt and pepper if necessary, to taste. Add another tablespoon of butter if you'd like more richness, or a little 
-                  more lemon juice if it needs more zing. Blend again, and serve.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              To prepare your carrots, peel them and then cut them on the
+              diagonal so each piece is about ½″ thick at the widest part
+            </li>
+            <li>
+              Roast the carrots until they're caramelized on the edges and
+              easily pierced through by a fork, 25 to 40 minutes, tossing
+              halfway. (Heirloom carrot varieties will roast in as little as 25
+              minutes, but regular carrots are more dense and typically require
+              35 to 40 minutes.)
+            </li>
+            <li>
+              Add the garlic, coriander and cumin (if following a variation, see
+              recipe notes for additions). Cook until fragrant while stirring
+              constantly, about 30 seconds to 1 minute. Pour in the vegetable
+              broth and water, while scraping up any browned bits on the bottom
+              with a wooden spoon or sturdy silicone spatula.
+            </li>
+            <li>
+              Add the butter, lemon juice (or lime, if following the Thai
+              variation), and several twists of black pepper. Blend until
+              completely smooth. Add additional salt and pepper if necessary, to
+              taste. Add another tablespoon of butter if you'd like more
+              richness, or a little more lemon juice if it needs more zing.
+              Blend again, and serve.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="spinachRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/spinat_omelette_feta.jpg" alt="Spinach Omlette">
+          <img
+            src="../images/dinner/spinat_omelette_feta.jpg"
+            alt="Spinach Omlette"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Spinach Omlette</h3>
-          <p>Enjoy this spinach omelet with tender baby greens, Parmesan cheese, and a little nutmeg cooked together for the perfect start to the day.</p>
-        </div>
-          <p>
-            Ingredients for 1 serving
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Spinach Omlette</h3>
+              <p>
+                Enjoy this spinach omelet with tender baby greens, Parmesan
+                cheese, and a little nutmeg cooked together for the perfect
+                start to the day.
+              </p>
+            </div>
+            <p>Ingredients for 1 serving</p>
+            <ul>
               <li>2 eggs</li>
               <li>1 cup torn baby spinach leaves</li>
               <li>1 ½ tablespoons grated Parmesan cheese</li>
               <li>¼ teaspoon onion powder</li>
               <li>⅛ teaspoon ground nutmeg</li>
               <li>salt and pepper to taste</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Beat eggs in a bowl, and stir in baby spinach and Parmesan cheese. Season with onion powder, nutmeg, salt, and pepper.
-                </li>
-                <li>
-                  Spray a small skillet with cooking spray and place over medium heat. Once warm, add in the egg mixture and cook until 
-                  partially set, about 3 minutes. Flip with a spatula, and continue cooking, 2 to 3 minutes.
-                </li>
-                <li>
-                  Reduce heat to low and continue cooking, 2 to 3 minutes, or until omelet reaches desired doneness.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Beat eggs in a bowl, and stir in baby spinach and Parmesan cheese.
+              Season with onion powder, nutmeg, salt, and pepper.
+            </li>
+            <li>
+              Spray a small skillet with cooking spray and place over medium
+              heat. Once warm, add in the egg mixture and cook until partially
+              set, about 3 minutes. Flip with a spatula, and continue cooking, 2
+              to 3 minutes.
+            </li>
+            <li>
+              Reduce heat to low and continue cooking, 2 to 3 minutes, or until
+              omelet reaches desired doneness.
+            </li>
+          </ol>
         </div>
       </section>
-      
+
       <section class="recipeDisplay" id="stirFryRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/romanesco_pfanne_fregola.jpg" alt="Stir Fry">
+          <img
+            src="../images/dinner/romanesco_pfanne_fregola.jpg"
+            alt="Stir Fry"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Stir Fry</h3>
-          <p>Tuck into a vibrant bowl filled with Thai spiced chunks of pepper and dinky romanesco florets. Fresh mint, zingy lime and fluffy basmati rice provide the finishing touches.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Stir Fry</h3>
+              <p>
+                Tuck into a vibrant bowl filled with Thai spiced chunks of
+                pepper and dinky romanesco florets. Fresh mint, zingy lime and
+                fluffy basmati rice provide the finishing touches.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>150g white basmati rice</li>
               <li>1 romanesco cauliflower</li>
               <li>1 red pepper</li>
@@ -342,66 +423,76 @@
               <li>A handful of mint, leaves only</li>
               <li>1 lime</li>
               <li>1 tbsp Thai red curry paste</li>
-              <li>1 vegetable stock cube
-              </li>
-          </ul>
-        </div>
+              <li>1 vegetable stock cube</li>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  To prepare the rice, start by rinsing the rice in a sieve. Then, transfer it to a small pan and add 300ml boiling water and a pinch of salt. Cover the pan and bring it to a boil. 
-                  Reduce the heat and simmer gently for 8 minutes until the water is absorbed. Finally, remove the pan from heat and let the rice steam, covered, for 10 minutes.
-                </li>
-                <li>
-                  To prepare the vegetables, begin by trimming the base of the romanesco cauliflower and breaking off the florets. Cut the florets into small pieces and shred the leaves. 
-                  Next, halve the pepper, remove the seeds and white membrane, and slice it into thin strips.
-                </li>
-                <li>
-                  To make the curry paste, peel and roughly chop the garlic cloves and ginger. Peel and slice the shallots. Set aside half of the mint leaves and grate the lime zest. 
-                  In a small food processor, combine the garlic, ginger, shallots, lime zest, half of the mint leaves, 1 tbsp Thai red curry paste, 1 tbsp oil, salt, and pepper. 
-                  Blend into a fine paste. If you don't have a food processor, finely chop everything and mix in a bowl with the paste and oil.
-                </li>
-                <li>
-                  To prepare the stock and stir-fry, crumble the stock cube into a heatproof jug and pour in 200ml boiling water. Stir to dissolve. Heat 1 tbsp oil in a large 
-                  frying pan or wok over medium-high heat. Add the romanesco florets and curry paste to the pan and fry for 2 minutes, stirring frequently. Pour the stock into 
-                  the pan and stir well. Allow it to bubble and reduce for 4-5 minutes until thickened. Stir in the pepper strips and shredded romanesco leaves. 
-                  Cook for an additional 2-3 minutes until the vegetables are tender with a slight bite.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              To prepare the rice, start by rinsing the rice in a sieve. Then,
+              transfer it to a small pan and add 300ml boiling water and a pinch
+              of salt. Cover the pan and bring it to a boil. Reduce the heat and
+              simmer gently for 8 minutes until the water is absorbed. Finally,
+              remove the pan from heat and let the rice steam, covered, for 10
+              minutes.
+            </li>
+            <li>
+              To prepare the vegetables, begin by trimming the base of the
+              romanesco cauliflower and breaking off the florets. Cut the
+              florets into small pieces and shred the leaves. Next, halve the
+              pepper, remove the seeds and white membrane, and slice it into
+              thin strips.
+            </li>
+            <li>
+              To make the curry paste, peel and roughly chop the garlic cloves
+              and ginger. Peel and slice the shallots. Set aside half of the
+              mint leaves and grate the lime zest. In a small food processor,
+              combine the garlic, ginger, shallots, lime zest, half of the mint
+              leaves, 1 tbsp Thai red curry paste, 1 tbsp oil, salt, and pepper.
+              Blend into a fine paste. If you don't have a food processor,
+              finely chop everything and mix in a bowl with the paste and oil.
+            </li>
+            <li>
+              To prepare the stock and stir-fry, crumble the stock cube into a
+              heatproof jug and pour in 200ml boiling water. Stir to dissolve.
+              Heat 1 tbsp oil in a large frying pan or wok over medium-high
+              heat. Add the romanesco florets and curry paste to the pan and fry
+              for 2 minutes, stirring frequently. Pour the stock into the pan
+              and stir well. Allow it to bubble and reduce for 4-5 minutes until
+              thickened. Stir in the pepper strips and shredded romanesco
+              leaves. Cook for an additional 2-3 minutes until the vegetables
+              are tender with a slight bite.
+            </li>
+          </ol>
         </div>
       </section>
-
     </main>
 
-  <footer  class="footer">
-    <div class="footer-container">
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-social">
+          <a class="social-icon" href=""><i class="bx bxl-youtube"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-instagram"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-facebook"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-pinterest"></i></a>
+        </div>
 
-      <div class="footer-social">
-        <a class="social-icon" href=""><i class='bx bxl-youtube'></i></a>
-        <a class="social-icon" href=""><i class='bx bxl-instagram'></i></a>
-        <a class="social-icon" href=""><i class='bx bxl-facebook'></i></a>
-        <a class="social-icon" href=""><i class='bx bxl-pinterest'></i></a>
-        
+        <div class="footer-link-container">
+          <div class="Footer-link"><a href="">Home </a></div>
+          <div class="Footer-link"><a href="">Contact </a></div>
+          <div class="Footer-link"><a href="">Delivery </a></div>
+          <div class="Footer-link"><a href="">Locations</a></div>
+        </div>
+
+        <div class="footer-copyWrite">
+          <h3>Healthy Food, Crafted With 🎔 in Germany</h3>
+          <p>&copy Mo's Kitchen - 2024</p>
+        </div>
       </div>
+    </footer>
 
-      <div class="footer-link-container">
-        <div class="Footer-link"><a href="">Home </a></div>
-        <div class="Footer-link"><a href="">Contact </a></div>
-        <div class="Footer-link"><a href="">Delivery </a></div>
-        <div class="Footer-link"><a href="">Locations</a></div>
-    </div>
-
-    <div class="footer-copyWrite">
-      <h3>Healthy Food, Crafted With 🎔 in Germany</h3>
-      <p>&copy Mo's Kitchen - 2024</p>
-    </div>
-    </div>
-  </footer>
-
-  <script src="../js/mofunction.js"></script>
+    <script src="../js/mofunction.js"></script>
   </body>
 </html>

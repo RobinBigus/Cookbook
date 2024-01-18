@@ -44,7 +44,11 @@ header {
   font-family: "Fredoka", sans-serif;
   font-weight: 600;
   color: white;
-  background: radial-gradient(circle, rgba(220,83,89,1) 0%, rgba(210,35,42,1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(220, 83, 89, 1) 0%,
+    rgba(210, 35, 42, 1) 100%
+  );
   border-color: hsl(358, 59%, 63%);
   box-shadow: 3px 5px 5px hsl(358, 79%, 9%);
   border-style: solid;
@@ -97,16 +101,21 @@ header {
 }
 
 .dropdownContent .veganOptA:hover {
-  color:#8EC298;
-  text-shadow:black 1px 1px;
+  color: #8ec298;
+  text-shadow: black 1px 1px;
 }
 
 .dropdownContent .nonVeganOptA:hover {
   color: hsl(12, 53%, 57%);
-  text-shadow:black 1px 1px;
+  text-shadow: black 1px 1px;
 }
 
 /* Main */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 main {
   padding: 0 10%;
@@ -115,6 +124,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  min-height: 67.5vh;
 }
 
 h2 {
@@ -176,28 +186,29 @@ p {
 
 /* Recipe Display */
 .recipeDisplay {
-  display: none;
+  width: 100%;
+  display: flex;
   flex-direction: column;
-  border: #662601 solid 10px;
+  border: #d2232a solid 6px;
   border-radius: 1rem;
   margin-top: 5rem;
-  background-color: #db904a;
-  width: 100%;
+  background-color: #ead196;
+  display: none;
 }
 
 .recipeHeader {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 15rem;
   border-radius: 1rem 1rem 0 0;
   padding: 2rem;
 }
 
 .recipeHeader img {
-  margin: 0.5rem 0 0 0.5rem;
+  margin: 2rem 0 0 2rem;
   height: auto;
   width: 38rem;
-  border: 3px solid #662601;
+  border: 3px solid white;
   border-radius: 1rem;
 }
 
@@ -237,7 +248,7 @@ p {
 }
 
 .recipeBody h4 {
-  margin-bottom: 2rem;
+  margin: 2.5rem 0 2.5rem 0;
   font-size: 2.5rem;
 }
 
@@ -260,29 +271,30 @@ p {
   margin-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
+  border: hsl(358, 71%, 28%) solid 3px;
   h2 {
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
+    font-size: 3rem;
+    text-decoration: underline;
   }
 }
 
 .foodDisplayVeg {
   border: 1px solid whitesmoke;
   border-radius: 25px;
-  background-color: #8EC298; 
+  background-color: #8ec298;
   margin-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
+  border: hsl(133, 16%, 28%) solid 3px;
   h2 {
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
+    font-size: 3rem;
+    text-decoration: underline;
   }
 }
 
 .foodDisplayIconContainer {
-  /* display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1em;
-  padding: 1em;
-  align-items: center; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -330,46 +342,52 @@ p {
   opacity: 1;
 }
 
-#beeren_icecream_minze {
+#button1 {
   background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: white solid 3px;
 }
 
-#chocolate_shell_oats {
+#button2 {
   background-image: url(../images/breakfast/chocolate_shell_oats.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: white solid 3px;
 }
 
-#haferschleim {
+#button3 {
   background-image: url(../images/breakfast/haferschleim.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: white solid 3px;
 }
 
-#hummus_ohne_tahini {
+#button4 {
   background-image: url(../images/breakfast/hummus_ohne_tahini.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: white solid 3px;
 }
 
-#knuspriges_buchweizen_granola {
+#button5 {
   background-image: url(../images/breakfast/knuspriges_buchweizen_granola.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: white solid 3px;
 }
 
-#overnight_oats_mit_skyr {
+#button6 {
   background-image: url(../images/breakfast/overnight_oats_mit_skyr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: white solid 3px;
 }
 
 /* Dinner No Veg */
@@ -462,7 +480,7 @@ p {
 /* Footer */
 
 .footer-container {
-  margin: 5rem;
+  margin-top: 5rem;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -506,8 +524,8 @@ p {
   margin-top: 3rem;
   background-color: #d2232a;
   color: #fff;
-  width: 100vw;
+  width: 100%;
   height: 6em;
-  border-radius: 0 0 10px 10px;
   letter-spacing: 2px;
+  border-top: hsl(358, 71%, 28%) solid 2px;
 }

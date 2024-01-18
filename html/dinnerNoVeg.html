@@ -4,107 +4,141 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dinner</title>
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image" href="/images/MoKitchenLogo_bg_d2232a.png" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      
-      <a href="index.html"><img src="../images/MoKitchenLogo_bg_d2232a.png"></a>
+      <a href="index.html"
+        ><img src="../images/MoKitchenLogo_bg_d2232a.png"
+      /></a>
 
       <nav id="navHeader" class="dropdown">
-
-        <button id="buttonBreakfast" class="navButton">Breakfast
+        <button id="buttonBreakfast" class="navButton">
+          Breakfast
           <div class="dropdownContent" id="buttonBreakfastContent">
-            <a href="breakfastNoVeg.html" class="nonVeganOptA">non vegan options</a>
+            <a href="breakfastNoVeg.html" class="nonVeganOptA"
+              >non vegan options</a
+            >
             <a href="breakfastVeg.html" class="veganOptA">vegan options</a>
           </div>
         </button>
-          
-        <button id="buttonLunch" class="navButton">Lunch
+
+        <button id="buttonLunch" class="navButton">
+          Lunch
           <div class="dropdownContent" id="buttonLunchContent">
             <a href="lunchNoVeg.html" class="nonVeganOptA">non vegan options</a>
             <a href="lunchVeg.html" class="veganOptA">vegan options</a>
           </div>
         </button>
 
-        <button id="buttonDinner" class="navButton">Dinner
+        <button id="buttonDinner" class="navButton">
+          Dinner
           <div class="dropdownContent" id="buttonDinnerContent">
-            <a href="dinnerNoVeg.html" class="nonVeganOptA">Non-vegan options</a>
+            <a href="dinnerNoVeg.html" class="nonVeganOptA"
+              >Non-vegan options</a
+            >
             <a href="dinnerVeg.html" class="veganOptA">Vegan options</a>
           </div>
         </button>
-
       </nav>
-
     </header>
 
     <main>
-
       <section class="foodDisplayNoVeg">
-        <h2>Lunch</h2>
-        <p id="foodDisplayP">
-        Our non Vegan Options   
-        </p>
+        <h2>Dinner</h2>
+        <p id="foodDisplayP">Our non Vegan Options</p>
         <div class="foodDisplayIconContainer">
-          <button id="carpaccio_entenbrust" class="foodIcon" onclick="showDuck()">
+          <button
+            id="carpaccio_entenbrust"
+            class="foodIcon"
+            onclick="showDuck()"
+          >
             <div class="text-overlay">
-              <p>Duck Breast Carpaccio</p><br>
+              <p>Duck Breast Carpaccio</p>
+              <br />
               <p>Prep time: 15 min</p>
             </div>
           </button>
 
           <button id="chefsalat_steak" class="foodIcon" onclick="showSteak()">
             <div class="text-overlay">
-              <p>Steak Chefsalad</p><br>
+              <p>Steak Chefsalad</p>
+              <br />
               <p>Prep time: 10 min</p>
             </div>
           </button>
 
-          <button id="knusperhaehnchen_gurkensalat" class="foodIcon" onclick="showChicken()">
+          <button
+            id="knusperhaehnchen_gurkensalat"
+            class="foodIcon"
+            onclick="showChicken()"
+          >
             <div class="text-overlay">
-              <p>Crispy Chicken with Cucumber salad</p><br>
+              <p>Crispy Chicken with Cucumber salad</p>
+              <br />
               <p>Prep time: 5 min</p>
             </div>
           </button>
 
-          <button id="lachs_tomaten_pasta" class="foodIcon" onclick="showSalmon()">
+          <button
+            id="lachs_tomaten_pasta"
+            class="foodIcon"
+            onclick="showSalmon()"
+          >
             <div class="text-overlay">
-              <p>Salmon Tomato Pasta</p><br>
+              <p>Salmon Tomato Pasta</p>
+              <br />
               <p>Prep time: 20 min</p>
             </div>
           </button>
 
-          <button id="spaghetti_carbonara" class="foodIcon" onclick="showCabonara()">
+          <button
+            id="spaghetti_carbonara"
+            class="foodIcon"
+            onclick="showCabonara()"
+          >
             <div class="text-overlay">
-              <p>Spaghetti Carbonara</p><br>
+              <p>Spaghetti Carbonara</p>
+              <br />
               <p>Prep time: 7 min</p>
             </div>
           </button>
 
-          <button id="bratwurst_buletten_gemuese" class="foodIcon" onclick="showSausage()">
+          <button
+            id="bratwurst_buletten_gemuese"
+            class="foodIcon"
+            onclick="showSausage()"
+          >
             <div class="text-overlay">
-              <p>Sausagepatties with Vegies</p><br>
+              <p>Sausagepatties with Vegies</p>
+              <br />
               <p>Prep time: 12 hrs</p>
             </div>
           </button>
-
         </div>
       </section>
 
       <section class="recipeDisplay" id="duckRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/carpaccio_entenbrust.jpg" alt="Duck Breast Carpaccio">
+          <img
+            src="../images/dinner/carpaccio_entenbrust.jpg"
+            alt="Duck Breast Carpaccio"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Duck Breast Carpaccio</h3>
-          <p>Carpaccio is a traditional Italian starter usually made with beef, but it works equally well with duck breast.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Duck Breast Carpaccio</h3>
+              <p>
+                Carpaccio is a traditional Italian starter usually made with
+                beef, but it works equally well with duck breast.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>1/2 cauliflower</li>
               <li>1 bulb of fennel, finely sliced</li>
               <li>salt</li>
@@ -113,45 +147,55 @@
               <li>1 tbsp of hazelnut oil</li>
               <li>Gressingham duck breast</li>
               <li>100g of Romanesco florets</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Prepare the duck breast by removing the fat and sinew with a sharp knife. Wrap the breast in cling film and place in the freezer.
-                </li>
-                <li>
-                  Remove the breast from the freezer when firm and semi-frozen, about 30 minutes. Using a very sharp knife,<br>
-                  slice across the breast into thin slices and fan evenly across 4 plates. Cover each with cling film and store in the fridge until required.
-                </li>
-                <li>
-                  For the romanesco cauliflower, use the fine setting on a grater to create a cous cous like texture.<br>
-                   Place in a bowl and season to taste with salt and hazelnut oil.
-                </li>
-                <li>
-                  To serve the carpaccio, remove the plates from the fridge an allow to stand for 5-10 minutes so they are not too cold.<br>
-                   Sprinkle the romanesco “couscous”, some fennel and the cobnuts evenly over the duck. Finish with a small drizzle of hazelnut oil and a sprinkling of chives.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Prepare the duck breast by removing the fat and sinew with a sharp
+              knife. Wrap the breast in cling film and place in the freezer.
+            </li>
+            <li>
+              Remove the breast from the freezer when firm and semi-frozen,
+              about 30 minutes. Using a very sharp knife,<br />
+              slice across the breast into thin slices and fan evenly across 4
+              plates. Cover each with cling film and store in the fridge until
+              required.
+            </li>
+            <li>
+              For the romanesco cauliflower, use the fine setting on a grater to
+              create a cous cous like texture.<br />
+              Place in a bowl and season to taste with salt and hazelnut oil.
+            </li>
+            <li>
+              To serve the carpaccio, remove the plates from the fridge an allow
+              to stand for 5-10 minutes so they are not too cold.<br />
+              Sprinkle the romanesco “couscous”, some fennel and the cobnuts
+              evenly over the duck. Finish with a small drizzle of hazelnut oil
+              and a sprinkling of chives.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="steakSaladRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/chefsalat_steak.jpg" alt="Chefsalad Steak">
+          <img
+            src="../images/dinner/chefsalat_steak.jpg"
+            alt="Chefsalad Steak"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Steak Chefsalad</h3>
-          <p>The Steakhouse Chef Salad is what happens when you take your salad game all the way to the top!</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Steak Chefsalad</h3>
+              <p>
+                The Steakhouse Chef Salad is what happens when you take your
+                salad game all the way to the top!
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>3 cups romaine, chopped</li>
               <li>2 eggs, hard-boiled and halved</li>
               <li>4 ounces roast beef, diced</li>
@@ -161,43 +205,46 @@
               <li>1 Persian cucumber, sliced</li>
               <li>1 cup croutons</li>
               <li>Dressing and Condiments of your choice</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Place the romaine in a large serving bowl or on a large platter. 
-                </li>
-                <li>
-                  Arrange the eggs, the beef, the cheddar, the tomatoes, the Persian cucumber,<br>
-                   and the croutons on top of the lettuce in stripes. 
-                </li>
-                <li>
-                  Season the tomatoes, the cucumber, and the eggs with the salt and the pepper. 
-                </li>
-                <li>
-                  Top with the dressing and serve!
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Place the romaine in a large serving bowl or on a large platter.
+            </li>
+            <li>
+              Arrange the eggs, the beef, the cheddar, the tomatoes, the Persian
+              cucumber,<br />
+              and the croutons on top of the lettuce in stripes.
+            </li>
+            <li>
+              Season the tomatoes, the cucumber, and the eggs with the salt and
+              the pepper.
+            </li>
+            <li>Top with the dressing and serve!</li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="crispyChickRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/knusperhaehnchen_gurkensalat.jpg" alt="Crispy Chicken">
+          <img
+            src="../images/dinner/knusperhaehnchen_gurkensalat.jpg"
+            alt="Crispy Chicken"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Crispy Chicken</h3>
-          <p>Crispy Chicken Tenders marinaded in buttermilk then fried (or oven baked!) golden brown are juicy and flavorful with southern seasonings.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Crispy Chicken</h3>
+              <p>
+                Crispy Chicken Tenders marinaded in buttermilk then fried (or
+                oven baked!) golden brown are juicy and flavorful with southern
+                seasonings.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>4 chicken breasts , boneless, skinless</li>
               <li>1 cup buttermilk</li>
               <li>1 teaspoon hot sauce</li>
@@ -209,44 +256,48 @@
               <li>1/8 teaspoon garlic powder</li>
               <li>1/8 teaspoon baking powder</li>
               <li>vegetable oil , for frying</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Cut the chicken breasts into four tenders each and soak them in a bowl with the buttermilk and hot sauce for 30 minutes.
-                  Add the eggs to one bowl and the flour and spices to a second bowl.
-                </li>
-                <li>
-                  Dip each piece of chicken from the buttermilk bowl to the flour mixture.
-                  Dip it into the eggs then back into the flour mixture.
-                  Shake excess flour gently off and put the chicken onto a baking sheet.
-                  Repeat with all the pieces.
-                </li>
-                <li>
-                  Heat the oil (three inches deep) in a dutch oven on medium high heat to 350 degrees.
-                  Fry the chicken in small batches for 5-7 minutes or until golden brown.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Cut the chicken breasts into four tenders each and soak them in a
+              bowl with the buttermilk and hot sauce for 30 minutes. Add the
+              eggs to one bowl and the flour and spices to a second bowl.
+            </li>
+            <li>
+              Dip each piece of chicken from the buttermilk bowl to the flour
+              mixture. Dip it into the eggs then back into the flour mixture.
+              Shake excess flour gently off and put the chicken onto a baking
+              sheet. Repeat with all the pieces.
+            </li>
+            <li>
+              Heat the oil (three inches deep) in a dutch oven on medium high
+              heat to 350 degrees. Fry the chicken in small batches for 5-7
+              minutes or until golden brown.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="salmonRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/lachs_tomaten_pasta.jpg" alt="Salmon Tomato Pasta">
+          <img
+            src="../images/dinner/lachs_tomaten_pasta.jpg"
+            alt="Salmon Tomato Pasta"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Salmon Tomato Pasta</h3>
-          <p>A great way of getting the kids to eat fish! Hide it with pasta in a delicious tomato sauce. It's light but filling.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Salmon Tomato Pasta</h3>
+              <p>
+                A great way of getting the kids to eat fish! Hide it with pasta
+                in a delicious tomato sauce. It's light but filling.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>300g Pasta</li>
               <li>15ml Napolina Olive Oil</li>
               <li>1 onion, finely diced</li>
@@ -256,47 +307,52 @@
               <li>Handful of fresh basil</li>
               <li>Handful of fresh basil</li>
               <li>Condiments of your choice</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Bring a large pan of water to the boil and season with salt. Add 300g of farfalle pasta and cook until al dente.
-                  Meanwhile, heat 15ml of olive oil in a large pan over a medium to low heat.
-                </li>
-                <li>
-                  Finely dice 1 onion and 2 cloves of garlic, fry for 5 minutes until soft.
-                  Add one jar of tomato & basil pasta sauce and simmer gently for a further 5 minutes.
-                  Remove the skin from the cooked salmon.
-                  Carefully flake the flesh onto a separate plate.
-                </li>
-                <li>
-                  Drain the cooked pasta then add to the sauce and mix together. Add the flaked salmon then gently stir again.  
-                  Season with salt and pepper.
-                </li>
-                <li>
-                  Serve with some grated Parmesan cheese and shredded basil leaves.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Bring a large pan of water to the boil and season with salt. Add
+              300g of farfalle pasta and cook until al dente. Meanwhile, heat
+              15ml of olive oil in a large pan over a medium to low heat.
+            </li>
+            <li>
+              Finely dice 1 onion and 2 cloves of garlic, fry for 5 minutes
+              until soft. Add one jar of tomato & basil pasta sauce and simmer
+              gently for a further 5 minutes. Remove the skin from the cooked
+              salmon. Carefully flake the flesh onto a separate plate.
+            </li>
+            <li>
+              Drain the cooked pasta then add to the sauce and mix together. Add
+              the flaked salmon then gently stir again. Season with salt and
+              pepper.
+            </li>
+            <li>
+              Serve with some grated Parmesan cheese and shredded basil leaves.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="cabonaraRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/spaghetti_carbonara.jpg" alt="Spaghetti Carbonara">
+          <img
+            src="../images/dinner/spaghetti_carbonara.jpg"
+            alt="Spaghetti Carbonara"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Spaghetti Carbonara</h3>
-          <p>Discover how to make traditional spaghetti carbonara. This classic Italian pasta dish combines a silky cheese sauce with crisp pancetta and black pepper.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Spaghetti Carbonara</h3>
+              <p>
+                Discover how to make traditional spaghetti carbonara. This
+                classic Italian pasta dish combines a silky cheese sauce with
+                crisp pancetta and black pepper.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>100g pancetta</li>
               <li>50g pecorino cheese</li>
               <li>50g parmesan</li>
@@ -305,50 +361,61 @@
               <li>2 plump garlic cloves, peeled and left whole</li>
               <li>50g unsalted butter</li>
               <li>sea salt and freshly ground black pepper</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side.
-                  Cut any hard skin off the pancetta and set aside, then chop the meat.
-                  Cook the spaghetti in a large pan of boiling salted water until al dente.
-                </li>
-                <li>
-                  Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, 
-                  or use 1 tablespoon of oil instead), then place over a medium-high heat.
-                  Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, 
-                  then cook for 4 minutes, or until it starts to crisp up.
-                </li>
-                <li>
-                  Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti. 
-                  Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat.
-                  Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture - the pan will help to cook the egg gently, 
-                  rather than scrambling it. Toss well, adding more cooking water until it's lovely and glossy.
-                </li>
-                <li>
-                  Serve with a grating of Parmesan and an extra twist of pepper.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              Put the egg yolks into a bowl, finely grate in the Parmesan,
+              season with pepper, then mix well with a fork and put to one side.
+              Cut any hard skin off the pancetta and set aside, then chop the
+              meat. Cook the spaghetti in a large pan of boiling salted water
+              until al dente.
+            </li>
+            <li>
+              Meanwhile, rub the pancetta skin, if you have any, all over the
+              base of a medium frying pan (this will add fantastic flavour, or
+              use 1 tablespoon of oil instead), then place over a medium-high
+              heat. Peel the garlic, then crush with the palm of your hand, add
+              it to the pan and leave it to flavour the fat for 1 minute. Stir
+              in the pancetta, then cook for 4 minutes, or until it starts to
+              crisp up.
+            </li>
+            <li>
+              Pick out and discard the garlic from the pan, then, reserving some
+              of the cooking water, drain and add the spaghetti. Toss well over
+              the heat so it really soaks up all that lovely flavour, then
+              remove the pan from the heat. Add a splash of the cooking water
+              and toss well, season with pepper, then pour in the egg mixture -
+              the pan will help to cook the egg gently, rather than scrambling
+              it. Toss well, adding more cooking water until it's lovely and
+              glossy.
+            </li>
+            <li>
+              Serve with a grating of Parmesan and an extra twist of pepper.
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="recipeDisplay" id="sausageRecipe">
         <div class="recipeHeader">
-          <img src="../images/dinner/bratwurst_buletten_gemuese.jpg" alt="Sausage Patties">
+          <img
+            src="../images/dinner/bratwurst_buletten_gemuese.jpg"
+            alt="Sausage Patties"
+          />
           <div class="recipeText">
-         <div class="recipeInfo">
-            <h3>Sausage Patties</h3>
-          <p>You are going to love these sausage patties. They are flavorful, herbaceous, and have just a hint of sweetness.</p>
-        </div>
-          <p>
-            Ingredients for 2 servings
-          </p>
-          <ul>
+            <div class="recipeInfo">
+              <h3>Sausage Patties</h3>
+              <p>
+                You are going to love these sausage patties. They are flavorful,
+                herbaceous, and have just a hint of sweetness.
+              </p>
+            </div>
+            <p>Ingredients for 2 servings</p>
+            <ul>
               <li>1 tbsp. Minced Fresh Sage</li>
               <li>1 tsp. Minced Fresh Thyme</li>
               <li>1 tsp. Fresh Rosemary</li>
@@ -356,53 +423,53 @@
               <li>1 tbsp. Brown Sugar</li>
               <li>1 tsp. Salt</li>
               <li>1 lb. Sausages of choice</li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
         <div class="recipeBody">
-          <h4>
-          Preparation steps
-        </h4>
-            <ol>
-                <li>
-                  In a large bowl, combine herbs, garlic, sugar, salt, and sausage filling. Using a hand mixer beat the ground pork until well-combined.
-                </li>
-                <li>
-                  Shape the patties by gently pressing at the center and working from the center out, turn the patties around in your hand as you shape them until they are uniform.
-                </li>
-                <li>
-                  Heat a nonstick skillet over medium-high heat. Cook the patties for 2 minutes on each side or until cooked through.
-                </li>
-            </ol>
+          <h4>Preparation steps</h4>
+          <ol>
+            <li>
+              In a large bowl, combine herbs, garlic, sugar, salt, and sausage
+              filling. Using a hand mixer beat the ground pork until
+              well-combined.
+            </li>
+            <li>
+              Shape the patties by gently pressing at the center and working
+              from the center out, turn the patties around in your hand as you
+              shape them until they are uniform.
+            </li>
+            <li>
+              Heat a nonstick skillet over medium-high heat. Cook the patties
+              for 2 minutes on each side or until cooked through.
+            </li>
+          </ol>
         </div>
       </section>
-      
     </main>
 
-    <footer  class="footer">
+    <footer class="footer">
       <div class="footer-container">
-  
         <div class="footer-social">
-          <a class="social-icon" href=""><i class='bx bxl-youtube'></i></a>
-          <a class="social-icon" href=""><i class='bx bxl-instagram'></i></a>
-          <a class="social-icon" href=""><i class='bx bxl-facebook'></i></a>
-          <a class="social-icon" href=""><i class='bx bxl-pinterest'></i></a>
-          
+          <a class="social-icon" href=""><i class="bx bxl-youtube"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-instagram"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-facebook"></i></a>
+          <a class="social-icon" href=""><i class="bx bxl-pinterest"></i></a>
         </div>
-  
+
         <div class="footer-link-container">
           <div class="Footer-link"><a href="">Home </a></div>
           <div class="Footer-link"><a href="">Contact </a></div>
           <div class="Footer-link"><a href="">Delivery </a></div>
           <div class="Footer-link"><a href="">Locations</a></div>
-      </div>
-  
-      <div class="footer-copyWrite">
-        <h3>Healthy Food, Crafted With 🎔 in Germany</h3>
-        <p>&copy Mo's Kitchen - 2024</p>
-      </div>
+        </div>
+
+        <div class="footer-copyWrite">
+          <h3>Healthy Food, Crafted With 🎔 in Germany</h3>
+          <p>&copy Mo's Kitchen - 2024</p>
+        </div>
       </div>
     </footer>
-  <script src="../js/mofunction.js"></script>
+    <script src="../js/mofunction.js"></script>
   </body>
 </html>
