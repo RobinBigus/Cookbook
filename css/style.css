@@ -177,7 +177,7 @@ p {
 /* Recipe Display */
 
 .recipeDisplay {
-  display: flex;
+  display: none;
   flex-direction: column;
   border: #662601 solid 10px;
   border-radius: 1rem;
@@ -417,7 +417,7 @@ p {
   background-position: center;
 }
 
-#duckRecipe {
+/* #duckRecipe {
   display: none;
 }
 
@@ -439,7 +439,7 @@ p {
 
 #sausageRecipe {
   display: none;
-}
+} */
 
 /* Dinner Veg */
 

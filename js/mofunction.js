@@ -5,7 +5,111 @@ const lachsRezept = document.querySelector('#salmonRecipe');
 const cabonaraRezept = document.querySelector('#cabonaraRecipe');
 const wustRezept = document.querySelector('#sausageRecipe');
 
+const bowlRezept = document.querySelector('#bowlRecipe');
+const brocRezept = document.querySelector('#brocRecipe');
+const endiveRezept = document.querySelector('#endiveRecipe');
+const carrotRezept = document.querySelector('#carrotRecipe');
+const spinachRezept = document.querySelector('#spinachRecipe');
+const stirFryRezept = document.querySelector('#stirFryRecipe');
+
+
 let isClicked = true;
+
+let showBowl = function(){
+    if(isClicked){
+        bowlRezept.style.display = 'flex';
+        brocRezept.style.display = 'none';
+        endiveRezept.style.display = 'none';
+        carrotRezept.style.display = 'none';
+        spinachRezept.style.display = 'none';
+        stirFryRezept.style.display = 'none';
+        isClicked = false;
+    }
+    else{
+        bowlRezept.style.display = 'none';
+        isClicked = true;
+    }
+};
+
+let showBroc = function(){
+    if(isClicked){
+        bowlRezept.style.display = 'none';
+        brocRezept.style.display = 'flex';
+        endiveRezept.style.display = 'none';
+        carrotRezept.style.display = 'none';
+        spinachRezept.style.display = 'none';
+        stirFryRezept.style.display = 'none';
+        isClicked = false;
+    }
+    else{
+        brocRezept.style.display = 'none';
+        isClicked = true;
+    }
+};
+
+let showEndive = function(){
+    if(isClicked){
+        bowlRezept.style.display = 'none';
+        brocRezept.style.display = 'none';
+        endiveRezept.style.display = 'flex';
+        carrotRezept.style.display = 'none';
+        spinachRezept.style.display = 'none';
+        stirFryRezept.style.display = 'none';
+        isClicked = false;
+    }
+    else{
+        endiveRezept.style.display = 'none';
+        isClicked = true;
+    }
+};
+
+let showCarrot = function(){
+    if(isClicked){
+        bowlRezept.style.display = 'none';
+        brocRezept.style.display = 'none';
+        endiveRezept.style.display = 'none';
+        carrotRezept.style.display = 'flex';
+        spinachRezept.style.display = 'none';
+        stirFryRezept.style.display = 'none';
+        isClicked = false;
+    }
+    else{
+        carrotRezept.style.display = 'none';
+        isClicked = true;
+    }
+};
+
+let showSpinach = function(){
+    if(isClicked){
+        bowlRezept.style.display = 'none';
+        brocRezept.style.display = 'none';
+        endiveRezept.style.display = 'none';
+        carrotRezept.style.display = 'none';
+        spinachRezept.style.display = 'flex';
+        stirFryRezept.style.display = 'none';
+        isClicked = false;
+    }
+    else{
+        spinachRezept.style.display = 'none';
+        isClicked = true;
+    }
+};
+
+let showStir = function(){
+    if(isClicked){
+        bowlRezept.style.display = 'none';
+        brocRezept.style.display = 'none';
+        endiveRezept.style.display = 'none';
+        carrotRezept.style.display = 'none';
+        spinachRezept.style.display = 'none';
+        stirFryRezept.style.display = 'flex';
+        isClicked = false;
+    }
+    else{
+        stirFryRezept.style.display = 'none';
+        isClicked = true;
+    }
+};
 
 let showDuck = function(){
     if(isClicked){
