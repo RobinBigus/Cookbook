@@ -10,17 +10,39 @@
   </head>
   <body>
     <header>
-      <img src="../images/MoKitchenLogo_bg_d2232a.png">
-      <nav id="navHeader">
-        <button class="navButton">Breakfast</button>
-        <button class="navButton">Lunch</button>
-        <button class="navButton">Dinner</button>
+      
+      <a href="index.html"><img src="../images/MoKitchenLogo_bg_d2232a.png"></a>
+
+      <nav id="navHeader" class="dropdown">
+
+        <button id="buttonBreakfast" class="navButton">Breakfast
+          <div class="dropdownContent" id="buttonBreakfastContent">
+            <a href="breakfastNoVeg.html" class="nonVeganOptA">non vegan options</a>
+            <a href="breakfastVeg.html" class="veganOptA">vegan options</a>
+          </div>
+        </button>
+          
+        <button id="buttonLunch" class="navButton">Lunch
+          <div class="dropdownContent" id="buttonLunchContent">
+            <a href="lunchNoVeg.html" class="nonVeganOptA">non vegan options</a>
+            <a href="lunchVeg.html" class="veganOptA">vegan options</a>
+          </div>
+        </button>
+
+        <button id="buttonDinner" class="navButton">Dinner
+          <div class="dropdownContent" id="buttonDinnerContent">
+            <a href="dinnerNoVeg.html" class="nonVeganOptA">Non-vegan options</a>
+            <a href="dinnerVeg.html" class="veganOptA">Vegan options</a>
+          </div>
+        </button>
+
       </nav>
+
     </header>
 
     <main>
 
-    <section class="foodDisplayBreakfast">
+    <section class="foodDisplayNoVeg">
       <h2>Breakfast</h2>
       <p id="foodDisplayP">
       Our non Vegan Options   

@@ -25,6 +25,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 1rem;
+  border-bottom: hsl(358, 71%, 28%) solid 2px;
 }
 
 #navHeader {
@@ -43,39 +44,45 @@ header {
   font-family: "Fredoka", sans-serif;
   font-weight: 600;
   color: white;
-  background-color: #d2232a;
-  border-color: white;
-  box-shadow: 3px 5px 5px whitesmoke;
+  background: radial-gradient(circle, rgba(220,83,89,1) 0%, rgba(210,35,42,1) 100%);
+  border-color: hsl(358, 59%, 63%);
+  box-shadow: 3px 5px 5px hsl(358, 79%, 9%);
   border-style: solid;
   max-height: 65px;
   text-align: center;
 }
 
 #buttonBreakfast:hover {
-  max-height: fit-content; 
+  max-height: fit-content;
 }
 
 #buttonBreakfast:hover #buttonBreakfastContent {
   display: flex;
-  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 #buttonLunch:hover {
-  max-height: fit-content; 
+  max-height: fit-content;
 }
 
 #buttonLunch:hover #buttonLunchContent {
   display: flex;
-  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 #buttonDinner:hover {
-  max-height: fit-content; 
+  max-height: fit-content;
 }
 
 #buttonDinner:hover #buttonDinnerContent {
   display: flex;
-  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .dropdownContent {
@@ -89,8 +96,14 @@ header {
   font-size: 1rem;
 }
 
-.dropdownContent a:hover {
-  color: black;
+.dropdownContent .veganOptA:hover {
+  color:#8EC298;
+  text-shadow:black 1px 1px;
+}
+
+.dropdownContent .nonVeganOptA:hover {
+  color: hsl(12, 53%, 57%);
+  text-shadow:black 1px 1px;
 }
 
 /* Main */
@@ -162,14 +175,14 @@ p {
 /* NonVegan */
 
 /* Recipe Display */
-
 .recipeDisplay {
-  display: flex;
+  display: none;
   flex-direction: column;
   border: #662601 solid 10px;
   border-radius: 1rem;
   margin-top: 5rem;
   background-color: #db904a;
+  width: 100%;
 }
 
 .recipeHeader {
@@ -240,22 +253,38 @@ p {
 
 /* Breakfast NoVeg */
 
-.foodDisplayBreakfast {
+.foodDisplayNoVeg {
   border: 1px solid whitesmoke;
   border-radius: 25px;
   background-color: #c2988e; /* alternative suggestion #2980b9 */
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  h2 {
+    margin: 2rem 0;
+  }
+}
 
+.foodDisplayVeg {
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  background-color: #8EC298; 
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  width: 100%;
   h2 {
     margin: 2rem 0;
   }
 }
 
 .foodDisplayIconContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
-  padding: 2em;
-  justify-content: space-around;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1em;
+  padding: 1em;
+  align-items: center; */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .foodIcon {
@@ -343,6 +372,93 @@ p {
   background-position: center;
 }
 
+/* Dinner No Veg */
+
+#carpaccio_entenbrust {
+  background-image: url(../images/dinner/carpaccio_entenbrust.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#chefsalat_steak {
+  background-image: url(../images/dinner/chefsalat_steak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#knusperhaehnchen_gurkensalat {
+  background-image: url(../images/dinner/knusperhaehnchen_gurkensalat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#lachs_tomaten_pasta {
+  background-image: url(../images/dinner/lachs_tomaten_pasta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#spaghetti_carbonara {
+  background-image: url(../images/dinner/spaghetti_carbonara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#bratwurst_buletten_gemuese {
+  background-image: url(../images/dinner/bratwurst_buletten_gemuese.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Dinner Veg */
+
+#asia_bowl_kraeutersalat {
+  background-image: url(../images/dinner/asia_bowl_kraeutersalat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#brokkoli_lauch_curry {
+  background-image: url(../images/dinner/brokkoli_lauch_curry.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#endiviensalat_tofu_dressing {
+  background-image: url(../images/dinner/endiviensalat_tofu_dressing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#moehren_linsen_suppe {
+  background-image: url(../images/dinner/moehren_linsen_suppe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#spinat_omelette_feta {
+  background-image: url(../images/dinner/spinat_omelette_feta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#romanesco_pfanne_fregola {
+  background-image: url(../images/dinner/romanesco_pfanne_fregola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* Footer */
 
 .footer-container {
