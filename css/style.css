@@ -342,6 +342,56 @@ p {
   opacity: 1;
 }
 
+.beeren_icecream_minze {
+  background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.chocolate_shell_oats {
+  background-image: url(../images/breakfast/chocolate_shell_oats.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.haferschleim {
+  background-image: url(../images/breakfast/haferschleim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hummus_ohne_tahini {
+  background-image: url(../images/breakfast/hummus_ohne_tahini.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.knuspriges_buchweizen_granola {
+  background-image: url(../images/breakfast/knuspriges_buchweizen_granola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overnight_oats_mit_skyr {
+  background-image: url(../images/breakfast/overnight_oats_mit_skyr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.recipeDisplay{
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 #button1 {
   background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
   background-repeat: no-repeat;
