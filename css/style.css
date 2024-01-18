@@ -175,7 +175,6 @@ p {
 /* NonVegan */
 
 /* Recipe Display */
-
 .recipeDisplay {
   display: none;
   flex-direction: column;
@@ -416,30 +415,6 @@ p {
   background-size: cover;
   background-position: center;
 }
-
-/* #duckRecipe {
-  display: none;
-}
-
-#steakSaladRecipe {
-  display: none;
-}
-
-#crispyChickRecipe {
-  display: none;
-}
-
-#salmonRecipe {
-  display: none;
-}
-
-#cabonaraRecipe {
-  display: none;
-}
-
-#sausageRecipe {
-  display: none;
-} */
 
 /* Dinner Veg */
 
