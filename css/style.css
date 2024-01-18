@@ -425,6 +425,22 @@ p {
   display: none;
 }
 
+#crispyChickRecipe {
+  display: none;
+}
+
+#salmonRecipe {
+  display: none;
+}
+
+#cabonaraRecipe {
+  display: none;
+}
+
+#sausageRecipe {
+  display: none;
+}
+
 /* Dinner Veg */
 
 #asia_bowl_kraeutersalat {
