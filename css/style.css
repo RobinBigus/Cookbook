@@ -131,16 +131,16 @@ h2 {
   padding: 0;
   margin: 0.2rem 0;
   font-family: "Fredoka", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 p {
   font-family: "Fredoka", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 #introTxt {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 #foodDisplayP {
@@ -153,6 +153,13 @@ p {
 }
 
 .foodIcon {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.foodIconVeg {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
@@ -189,11 +196,20 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: #d2232a solid 6px;
+  border: hsl(358, 71%, 28%) solid 3px;
   border-radius: 1rem;
   margin-top: 5rem;
-  background-color: #ead196;
+  background-color: #C2988E;
   display: none;
+}
+
+.recipeDisplay.Veg {
+  background-color: #8ec298;
+  border:  hsl(133, 16%, 28%) solid 3px;
+}
+
+.recipeDisplay.Veg img {
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 .recipeHeader {
@@ -208,7 +224,7 @@ p {
   margin: 2rem 0 0 2rem;
   height: auto;
   width: 38rem;
-  border: 3px solid white;
+  border: hsl(358, 71%, 28%) solid 3px;
   border-radius: 1rem;
 }
 
@@ -304,7 +320,29 @@ p {
   overflow: hidden;
 }
 
+.foodIconVeg {
+  position: relative;
+  overflow: hidden;
+}
+
 .foodIcon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.foodIconVeg::before {
   content: "";
   position: absolute;
   top: 0;
@@ -325,6 +363,10 @@ p {
   opacity: 1;
 }
 
+.foodIconVeg:hover::before {
+  opacity: 1;
+}
+
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -342,11 +384,16 @@ p {
   opacity: 1;
 }
 
+.foodIconVeg:hover .text-overlay {
+  opacity: 1;
+}
+
 .beeren_icecream_minze {
   background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 .chocolate_shell_oats {
@@ -354,6 +401,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 .haferschleim {
@@ -361,6 +409,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 .hummus_ohne_tahini {
@@ -368,6 +417,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 .knuspriges_buchweizen_granola {
@@ -375,6 +425,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 .overnight_oats_mit_skyr {
@@ -382,6 +433,55 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
+}
+ /* Breakfast Noveg */
+#beeren_icecream_minzeNV {
+  background-image: url(../images/breakfast/skyr_dessert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
+}
+
+#chocolate_shell_oats_buttonNV {
+  background-image: url(../images/breakfast/smoothie_bowl_mit_blaubeeren.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
+}
+
+#haferschleimNV {
+  background-image: url(../images/breakfast/suesskartoffel_toast_avocado_erbsen_pueree.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
+}
+
+#hummus_ohne_tahiniNV {
+  background-image: url(../images/breakfast/suesskartoffel_toasts_frischkaese_avocado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
+}
+
+#knuspriges_buchweizen_granolaNV {
+  background-image: url(../images/breakfast/vollkornbrot_avocadofrischkaese_raeucherlachs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
+}
+
+#overnight_oats_mit_skyrNV {
+  background-image: url(../images/breakfast/zuckerfreies_granola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 .recipeDisplay{
@@ -392,53 +492,97 @@ p {
   display: block;
 }
 
+/* Lunch No Veg */
+
 #button1 {
-  background-image: url(../images/breakfast/beeren_icecream_minze.jpg);
+  background-image: url(../images/lunch/pfannkuchen.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: white solid 3px;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #button2 {
-  background-image: url(../images/breakfast/chocolate_shell_oats.jpg);
+  background-image: url(../images/lunch/pizza_toast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: white solid 3px;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #button3 {
-  background-image: url(../images/breakfast/haferschleim.jpg);
+  background-image: url(../images/lunch/schupfnudeln_32066.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: white solid 3px;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #button4 {
-  background-image: url(../images/breakfast/hummus_ohne_tahini.jpg);
+  background-image: url(../images/lunch/spiralkartoffeln.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: white solid 3px;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #button5 {
-  background-image: url(../images/breakfast/knuspriges_buchweizen_granola.jpg);
+  background-image: url(../images/lunch/tortellini_gemuese.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: white solid 3px;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #button6 {
-  background-image: url(../images/breakfast/overnight_oats_mit_skyr.jpg);
+  background-image: url(../images/lunch/wirsing_hack_pfanne_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: white solid 3px;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
+/* Lunch Veg */
+#button1Veg {
+  background-image: url(../images/lunch/burrata_pasta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;}
+
+#button2Veg {
+  background-image: url(../images/lunch/cottage_pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;}
+
+#button3Veg {
+  background-image: url(../images/lunch/forelle_gebraten_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;}
+
+#button4Veg {
+  background-image: url(../images/lunch/mexikanische_burrito_1_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;}
+
+#button5Veg {
+  background-image: url(../images/lunch/omelett_pilze_zwiebeln.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;}
+
+#button6Veg {
+  background-image: url(../images/lunch/pfannenlasagne.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;}
 
 /* Dinner No Veg */
 
@@ -447,6 +591,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #chefsalat_steak {
@@ -454,6 +599,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #knusperhaehnchen_gurkensalat {
@@ -461,6 +607,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #lachs_tomaten_pasta {
@@ -468,6 +615,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #spaghetti_carbonara {
@@ -475,6 +623,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 #bratwurst_buletten_gemuese {
@@ -482,6 +631,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(358, 71%, 28%) solid 3px;
 }
 
 /* Dinner Veg */
@@ -491,6 +641,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 #brokkoli_lauch_curry {
@@ -498,6 +649,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: hsl(133, 16%, 28%) solid 3px;
 }
 
 #endiviensalat_tofu_dressing {
@@ -505,6 +657,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 #moehren_linsen_suppe {
@@ -512,6 +665,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 #spinat_omelette_feta {
@@ -519,6 +673,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 
 #romanesco_pfanne_fregola {
@@ -526,6 +681,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border:  hsl(133, 16%, 28%) solid 3px;
 }
 /* Footer */
 
