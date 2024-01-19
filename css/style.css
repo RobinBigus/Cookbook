@@ -542,42 +542,42 @@ p {
   border: hsl(358, 71%, 28%) solid 3px;
 }
 /* Lunch Veg */
-#button1Veg {
+#buttonVeg1 {
   background-image: url(../images/lunch/burrata_pasta.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border:  hsl(133, 16%, 28%) solid 3px;}
 
-#button2Veg {
+#buttonVeg2 {
   background-image: url(../images/lunch/cottage_pie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border:  hsl(133, 16%, 28%) solid 3px;}
 
-#button3Veg {
+#buttonVeg3 {
   background-image: url(../images/lunch/forelle_gebraten_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border:  hsl(133, 16%, 28%) solid 3px;}
 
-#button4Veg {
+#buttonVeg4 {
   background-image: url(../images/lunch/mexikanische_burrito_1_4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border:  hsl(133, 16%, 28%) solid 3px;}
 
-#button5Veg {
+#buttonVeg5 {
   background-image: url(../images/lunch/omelett_pilze_zwiebeln.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border:  hsl(133, 16%, 28%) solid 3px;}
 
-#button6Veg {
+#buttonVeg6 {
   background-image: url(../images/lunch/pfannenlasagne.jpg);
   background-repeat: no-repeat;
   background-size: cover;
